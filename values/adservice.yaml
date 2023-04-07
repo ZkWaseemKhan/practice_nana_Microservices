@@ -1,0 +1,8 @@
+appName: adservice
+appImage: gcr.io/google-samples/microservices-demo/adservice
+appVersion: v0.2.3
+containerPort: 8080
+ContainerEnvVar:
+  - name: PORT
+    value: "8080"
+servicePort: 8080
